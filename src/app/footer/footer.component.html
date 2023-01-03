@@ -1,0 +1,17 @@
+<div class="link-wrapper animate__animated animate__fadeInUp animation-8" style="background-color:#004a9f ;">
+    <hr>  
+    <div class="titleFramework">
+    <h2 class="sub-title  animate__animated animate__fadeInUp animation-3">Contactos</h2>
+  </div>
+    <div class="links d-flex flex-wrap">
+      <div class="block col-4 col-lg-4"
+           *ngFor="let linkObj of links;let i = index">
+        <a [href]="linkObj.link" target="_blank">
+          <div class="block-in">
+            <span [innerHTML]="linkObj.icon"></span>
+          </div>
+        </a>
+      </div>
+    </div>
+   
+  </div>

@@ -1,0 +1,36 @@
+
+:root {
+    --color-1: #00296b;
+    --color-2: #38ffec;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    background-color: var(--color-1);
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  a, a:visited, a:hover, a:link {
+    color: white;
+    font-weight: 500;
+  }
+  
+  @for $i from 1 through 100 {
+    .animation-#{$i} {
+      animation-delay: #{$i /10}s;
+    }
+  }
+  
+  hr {
+    border-color: #ffffff17;
+    margin: 2rem 0;
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

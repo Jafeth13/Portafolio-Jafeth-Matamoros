@@ -1,0 +1,162 @@
+
+
+<div class="marco pre-title animate__animated animate__fadeInUp animation-8">
+  <div>
+    <h1 class="title">Proyectos</h1>
+</div>
+<div>
+    <h2 class="title">Mi experincia en proyectos con estas tecnologias</h2>
+</div>
+<div class="content">
+  <div fxLayout="row wrap" fxLayoutGap="32px grid">
+    <div fxFlex.xs="100%" fxFlex.sm="33%" >
+<div class="gta col-xs-6 col-sm-12 col-md-12" >
+<div mat-elevation-z8 class="graphic mat-elevation-z4">
+    <ngx-charts-advanced-pie-chart
+    [view]="view"
+    [scheme]="colorScheme"
+    [results]="single"
+    [gradient]="gradient"
+    (select)="onSelect($event)"
+    (activate)="onActivate($event)"
+    (deactivate)="onDeactivate($event)"
+    >
+  </ngx-charts-advanced-pie-chart>
+  </div>
+</div>
+</div>
+</div>
+  
+</div>
+
+ 
+<div class="marco pre-title animate__animated animate__fadeInUp animation-16">
+<div>
+  <h2 class="title">Smart Parking CR</h2>
+</div>
+<p>
+  Smart parking es un proyecto que se basa en la reserva de un espacio en un parqueo desde la comodidad de la casa
+  <br> o donde el cliente guste mediante la página  web.
+</p>
+<h2 class="title">
+  Tecnologias utilizadas
+</h2>
+<p>
+  Smart Parking tiene 2 versiones una todo en .NET <BR>
+    La segunda version se desarollo el front-end con el framework de angular.Y en el backend utilizamos 2 APIs una en .NET y la otra con Spring boot.
+    En ambas ocasiones para la base de datos se utilizo el gestor SQL Server Management Studio.</p>
+    <br>
+
+<ngu-carousel #myCarousel [inputs]="carouselConfig" [dataSource]="[first, Fourth,second, third,Fifth]">
+	<div *nguCarouselDef="let item;let i=index" class="item">
+		<div class="tile">
+			<ng-container *ngTemplateOutlet="item"></ng-container>
+		</div>
+	</div>
+
+	<ng-template #first>
+    <img src='/assets/1.png'  >
+  </ng-template>
+
+	<ng-template #second>
+		<img src='/assets/2.png'  alt="Description when image is not found" >
+	</ng-template>
+
+	<ng-template #third>
+		<img src='/assets/3.png'   alt="Description when image is not found" >
+	</ng-template>	
+
+  <ng-template #Fourth>
+		<img src='/assets/4.png'  alt="Description when image is not found" >
+	</ng-template>
+
+  <ng-template #Fifth>
+		<img src='/assets/5.png'  alt="Description when image is not found" >
+	</ng-template>
+<!--<button NguCarouselPrev class="rightRs">sdds</button>
+	<button NguCarouselNext class="rightRs">></button>
+-->
+	<ul class="myPoint" NguCarouselPoint>
+		<li *ngFor="let j of myCarousel.pointNumbers;" [class.active]="j==myCarousel.activePoint" (click)="myCarousel.moveTo(j)"></li>
+	</ul>
+</ngu-carousel>
+
+
+<div>
+  <h2 class="title">Siscoa</h2>
+</div>
+<p>
+  Siscoa es un proyecto que se basa en el manejo de control administrativos de las diferentes oficinas,en el cuak se sube documentos para evidenciar que se cumplan lo solicitado.
+  <br> 
+</p>
+<h2 class="title">
+  Tecnologias utilizadas
+</h2>
+<p>
+   <BR>
+    Se desarollo el front-end con el framework de angular.Y en el backend utilizamos una API en .NET.
+    Para la base de datos se utilizo el gestor SQL Server Management Studio.</p>
+    <br>
+
+
+<ngu-carousel #myCarousel2 [inputs]="carouselConfig2" [dataSource]="[Seventh, Eighth,Ninth,Tenth,
+Eleventh]">
+	<div *nguCarouselDef="let item;let i=index" class="item">
+		<div class="tile">
+			<ng-container *ngTemplateOutlet="item"></ng-container>
+		</div>
+	</div>
+
+	
+
+	<ng-template #Seventh>
+		<img src='/assets/6.png' alt="Description when image is not found" >
+	</ng-template>
+
+	<ng-template #Eighth>
+		<img src='/assets/8.png' alt="Description when image is not found" >
+	</ng-template>	
+
+  <ng-template #Ninth  >
+		<img src='/assets/9.png' alt="Description when image is not found" >
+	</ng-template>
+
+  <ng-template #Tenth>
+		<img src='/assets/10.png' alt="Description when image is not found" >
+	</ng-template>
+
+  <ng-template #Eleventh>
+		<img src='/assets/7.png' alt="Description when image is not found" >
+	</ng-template>
+<!--<button NguCarouselPrev class="rightRs">sdds</button>
+	<button NguCarouselNext class="rightRs">></button>
+-->
+	<ul class="myPoint" NguCarouselPoint>
+		<li *ngFor="let j of myCarousel2.pointNumbers;" [class.active]="j==myCarousel2.activePoint" (click)="myCarousel2.moveTo(j)"></li>
+	</ul>
+</ngu-carousel>
+
+
+<div class="buttonCV">
+  <a href="https://drive.google.com/drive/folders/1bbT-IGeDPQF8EVEqjVXu0bl7YYiB2RVP?usp=sharing">
+  <button >
+         Ver proyectos 
+         <i class='uil-youtube'></i>
+    </button> 
+  </a>
+</div>
+<br>
+
+</div>
+<div class="buttonCV">
+  <a href="assets/JafethCV.pdf" download="JafethCV">
+    <button >
+          Descargar mi CV
+          <i class='uil-file-download'></i>
+        
+    </button>   
+   
+  </a>  
+ 
+</div>
+
