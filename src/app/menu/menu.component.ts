@@ -27,7 +27,7 @@ export class MenuComponent {
 
   ngOnInit(): void {
     const options = {
-      strings: ['Y soy desarrollador web','Me gusta tanto el front-end.', 'Como tambien el backend.'],
+      strings: ['Bienvenido a mi sitio web,vamos a conocer mi trabajo!', 'Pura vida!'],
       typeSpeed: 100,
       backSpeed: 100,
       showCursor: true,
@@ -36,6 +36,18 @@ export class MenuComponent {
  };
  const typed = new Typed('.typed-element', options);
 
+
+
+
+    const options2 = {
+      strings: ['Hola mi nombre es Jafeth Matamoros y soy desarrollador web.','Me gusta tanto el front-end como el backend.'],
+      typeSpeed: 100,
+      backSpeed: 100,
+      showCursor: true,
+      cursorChar: '',
+      loop: true
+    };
+const typed2 = new Typed('.typed-elementMy', options2);
   }
 
 
