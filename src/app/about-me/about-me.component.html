@@ -8,232 +8,117 @@
           <h1 class="title">Acerca de mi</h1>
         </div>
 
-        <div>
-          <h2 class="title">Hard skills</h2>
+        <mat-toolbar color="primary">
+          <span>Hard skills</span>
+        </mat-toolbar>
+        <div class="content">
+          <div fxLayout="row wrap" fxLayoutGap="16px grid">
+            <div fxFlex.xs="100%" fxFlex.sm="33%">
+              <!---->
+              <mat-card class="mat-elevation-z4">
+                <mat-card-header style="padding-bottom: 20px">
+                  <img src="assets/imagen1.jpeg" mat-card-avatar />
+                  <mat-card-title style="color: black"
+                    >Habildades tecnicas</mat-card-title
+                  >
+                  <mat-card-subtitle>front-end</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="assets/16.jpg" />
+                <mat-card-content>
+                  <p style="color: black; font-size: larger">
+                    HTML,CSS,Java-script,Typescript,AJAX y de frameworks Angular
+                    y tambien trabajo con bibliotecas como Bootstrap entre otras
+                    tecnologias.
+                  </p>
+                </mat-card-content>
+
+                <mat-card-footer style="padding-right: 40px">
+                  <mat-card-actions>
+                    <button
+                      mat-icon-button
+                      color="warn"
+                      aria-label="Example icon button with a heart icon"
+                    >
+                      <mat-icon>favorite</mat-icon>
+                    </button>
+                  </mat-card-actions>
+                </mat-card-footer>
+              </mat-card>
+
+              <br />
+              <mat-card class="mat-elevation-z4">
+                <mat-card-header style="padding-bottom: 20px">
+                  <img src="assets/imagen1.jpeg" mat-card-avatar />
+                  <mat-card-title style="color: black"
+                    >Habildades tecnicas</mat-card-title
+                  >
+                  <mat-card-subtitle>Back-end</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="assets/17.jpg" />
+                <mat-card-content>
+                  <p style="color: black; font-size: larger">
+                    En el backend tengo conocimientos de lenguajes de
+                    programacion como Java en el cual utilizo el framework de
+                    Spring boot.Tambien me desempeño con para este lenguaje
+                    utilizo el framework de .NET .Con respecto a las bases de
+                    datos tengo dominio del lenguaje SQL Server Management
+                    Studio y con los gestores de bases de datos SQL Server y
+                    MySQL.
+                  </p>
+                </mat-card-content>
+
+                <mat-card-footer style="padding-right: 40px">
+                  <mat-card-actions>
+                    <button
+                      mat-icon-button
+                      color="warn"
+                      aria-label="Example icon button with a heart icon"
+                    >
+                      <mat-icon>favorite</mat-icon>
+                    </button>
+                  </mat-card-actions>
+                </mat-card-footer>
+              </mat-card>
+
+              <mat-toolbar color="primary">
+                <span>Soft skills</span>
+              </mat-toolbar>
+
+              <mat-card class="mat-elevation-z4">
+                <mat-card-header style="padding-bottom: 20px">
+                  <img src="assets/imagen1.jpeg" mat-card-avatar />
+                  <mat-card-title style="color: black"
+                    >Habildades blandas</mat-card-title
+                  >
+                  <mat-card-subtitle>Acerca de mi</mat-card-subtitle>
+                </mat-card-header>
+                <img mat-card-image src="assets/18.jpg" />
+
+                <mat-card-content>
+                  <p style="color: black; font-size: larger">
+                    Soy una persona proactiva, que le gusta trabajar en equipo y
+                    proponer mis ideas para solverntar el problema sobre el cual
+                    estamos trabajando. Ademas una persona muy responsable y
+                    honesta.
+                  </p>
+                </mat-card-content>
+
+                <mat-card-footer style="padding-right: 40px">
+                  <mat-card-actions>
+                    <button
+                      mat-icon-button
+                      color="warn"
+                      aria-label="Example icon button with a heart icon"
+                    >
+                      <mat-icon>favorite</mat-icon>
+                    </button>
+                  </mat-card-actions>
+                </mat-card-footer>
+              </mat-card>
+            </div>
+          </div>
         </div>
-        <div></div>
-       
-        <mat-card class="mat-elevation-z4">
-          <mat-card-header style="padding-bottom: 20px">
-            <img src="assets/imagen1.jpeg" mat-card-avatar />
-            <mat-card-title style="color: black"
-              >Habildades tecnicas</mat-card-title
-            >
-            <mat-card-subtitle>front-end</mat-card-subtitle>
-          </mat-card-header>
-
-          <mat-card-content>
-            <img mat-card-image src="assets/12.jpg" />
-            <p style="color: black; font-size: larger">
-              HTML,CSS,Java-script,Typescript,AJAX y de frameworks Angular y
-              tambien trabajo con bibliotecas como Bootstrap entre otras
-              tecnologias.
-            </p>
-          </mat-card-content>
-
-          <mat-card-footer style="padding-right: 40px">
-            <mat-card-actions>
-              <button
-                mat-icon-button
-                color="warn"
-                aria-label="Example icon button with a heart icon"
-              >
-                <mat-icon>favorite</mat-icon>
-              </button>
-            </mat-card-actions>
-          </mat-card-footer>
-        </mat-card>
-       
-        <br />
-        <mat-card style="width: 600px; margin: 0px auto">
-          <mat-card-header style="padding-bottom: 20px">
-            <img src="assets/imagen1.jpeg" mat-card-avatar />
-            <mat-card-title style="color: black"
-              >Habildades tecnicas</mat-card-title
-            >
-            <mat-card-subtitle>Back-end</mat-card-subtitle>
-          </mat-card-header>
-
-          <mat-card-content>
-            <img mat-card-image src="assets/13.jpg" />
-            <p style="color: black; font-size: larger">
-              En el backend tengo conocimientos de lenguajes de programacion
-              como Java en el cual utilizo el framework de Spring boot.También
-              me desempeño con para este lenguaje utilizo el framework de .NET
-              .Con respecto a las bases de datos tengo dominio del lenguaje SQL
-              Server Management Studio y con los gestores de bases de datos SQL
-              Server y MySQL.
-            </p>
-          </mat-card-content>
-
-          <mat-card-footer style="padding-right: 40px">
-            <mat-card-actions>
-              <button
-                mat-icon-button
-                color="warn"
-                aria-label="Example icon button with a heart icon"
-              >
-                <mat-icon>favorite</mat-icon>
-              </button>
-            </mat-card-actions>
-          </mat-card-footer>
-        </mat-card>
       </div>
-      <br />
-      <div
-        class="cartas marco pre-title animate__animated animate__fadeInUp animation-8"
-      >
-        <div>
-          <h1 class="title">Soft skills</h1>
-        </div>
-        <div></div>
-
-        <mat-card style="width: 550px; margin: 0px auto">
-          <mat-card-header style="padding-bottom: 20px">
-            <img src="assets/imagen1.jpeg" mat-card-avatar />
-            <mat-card-title style="color: black"
-              >Habildades blandas</mat-card-title
-            >
-            <mat-card-subtitle>Acerca de mi</mat-card-subtitle>
-          </mat-card-header>
-
-          <mat-card-content>
-            <img mat-card-image src="assets/14.jpg" />
-            <p style="color: black; font-size: larger">
-              Soy una persona proactiva, que le gusta trabajar en equipo y
-              proponer mis ideas para solventar el problema sobre el cual
-              estamos trabajando. Además  una persona muy responsable y honesta.
-            </p>
-          </mat-card-content>
-
-          <mat-card-footer style="padding-right: 40px">
-            <mat-card-actions>
-              <button
-                mat-icon-button
-                color="warn"
-                aria-label="Example icon button with a heart icon"
-              >
-                <mat-icon>favorite</mat-icon>
-              </button>
-            </mat-card-actions>
-          </mat-card-footer>
-        </mat-card>
-      </div>
-    </div>
-  </div>
-</div>
--->
-
-<mat-toolbar color="primary">
-  <span>Hard skills</span>
-</mat-toolbar>
-<div class="content">
-  <div fxLayout="row wrap" fxLayoutGap="16px grid">
-    <div fxFlex.xs="100%" fxFlex.sm="33%" >
-    <!---->
-    <mat-card class="mat-elevation-z4" >
-      <mat-card-header style="padding-bottom: 20px">
-        <img src="assets/imagen1.jpeg" mat-card-avatar />
-        <mat-card-title style="color: black"
-          >Habildades tecnicas</mat-card-title
-        >
-        <mat-card-subtitle>front-end</mat-card-subtitle>
-      </mat-card-header>
-  <img mat-card-image src="assets/16.jpg" />
-      <mat-card-content>
-      
-        <p style="color: black; font-size: larger">
-          HTML,CSS,Java-script,Typescript,AJAX y de frameworks Angular y
-          tambien trabajo con bibliotecas como Bootstrap entre otras
-          tecnologias.
-        </p>
-      </mat-card-content>
-
-      <mat-card-footer style="padding-right: 40px">
-        <mat-card-actions>
-          <button
-            mat-icon-button
-            color="warn"
-            aria-label="Example icon button with a heart icon"
-          >
-            <mat-icon>favorite</mat-icon>
-          </button>
-        </mat-card-actions>
-      </mat-card-footer>
-    </mat-card>
-
-
-    <br>
-    <mat-card class="mat-elevation-z4">
-      <mat-card-header style="padding-bottom: 20px">
-        <img src="assets/imagen1.jpeg" mat-card-avatar />
-        <mat-card-title style="color: black"
-          >Habildades tecnicas</mat-card-title
-        >
-        <mat-card-subtitle>Back-end</mat-card-subtitle>
-      </mat-card-header>
- <img mat-card-image src="assets/17.jpg" />
-      <mat-card-content>
-       
-        <p style="color: black; font-size: larger">
-          En el backend tengo conocimientos de lenguajes de programacion
-          como Java en el cual utilizo el framework de Spring boot.Tambien
-          me desempeño con para este lenguaje utilizo el framework de .NET
-          .Con respecto a las bases de datos tengo dominio del lenguaje SQL
-          Server Management Studio y con los gestores de bases de datos SQL
-          Server y MySQL.
-        </p>
-      </mat-card-content>
-
-      <mat-card-footer style="padding-right: 40px">
-        <mat-card-actions>
-          <button
-            mat-icon-button
-            color="warn"
-            aria-label="Example icon button with a heart icon"
-          >
-            <mat-icon>favorite</mat-icon>
-          </button>
-        </mat-card-actions>
-      </mat-card-footer>
-    </mat-card>
-
-    <mat-toolbar color="primary">
-      <span>Soft skills</span>
-    </mat-toolbar>
-
-
-    <mat-card class="mat-elevation-z4">
-      <mat-card-header style="padding-bottom: 20px">
-        <img src="assets/imagen1.jpeg" mat-card-avatar />
-        <mat-card-title style="color: black"
-          >Habildades blandas</mat-card-title
-        >
-        <mat-card-subtitle>Acerca de mi</mat-card-subtitle>
-      </mat-card-header>
-        <img mat-card-image src="assets/18.jpg" />
-
-      <mat-card-content>
-        <p style="color: black; font-size: larger">
-          Soy una persona proactiva, que le gusta trabajar en equipo y
-          proponer mis ideas para solverntar el problema sobre el cual
-          estamos trabajando. Ademas una persona muy responsable y honesta.
-        </p>
-      </mat-card-content>
-
-      <mat-card-footer style="padding-right: 40px">
-        <mat-card-actions>
-          <button
-            mat-icon-button
-            color="warn"
-            aria-label="Example icon button with a heart icon"
-          >
-            <mat-icon>favorite</mat-icon>
-          </button>
-        </mat-card-actions>
-      </mat-card-footer>
-    </mat-card>
-
     </div>
   </div>
 </div>
