@@ -1,7 +1,7 @@
 name: jafeth deploy
 on: [push]
 jobs: 
-  Explore-Github-Action:
+  Explore-Github-Actions:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
