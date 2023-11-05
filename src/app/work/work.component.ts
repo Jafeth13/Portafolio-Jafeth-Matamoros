@@ -33,10 +33,20 @@ export class WorkComponent {
     velocity: 0.2
   }
 
+  @ViewChild('carousel', {static : true}) myCarousel3!: NguCarousel<any>;
+  carouselConfig3: NguCarouselConfig = {
+    grid: { xs: 1, sm: 1, md: 1, lg: 1, all: 0 },
+    load: 3,
+    interval: {timing: 4000, initialDelay: 1000},
+    loop: true,
+    touch: true,
+    velocity: 0.2
+  }
+
 
    single=[{
     "name": "Angular",
-    "value": 2
+    "value": 3
   },
   {
     "name": ".NET",
@@ -47,12 +57,7 @@ export class WorkComponent {
     "value": 1
   }];
   view: [number, number] = [300, 200];
-  imgags = [
-    'assets/a.jpg',
-    'assets/angular.png',
-    'assets/cartaA.jpg',
-    'assets/MYS.jpg'
-  ];
+  
  
   oso:any
 
@@ -64,13 +69,6 @@ export class WorkComponent {
     'assets/game.jpg',
     'assets/sendero.jpeg',
     
-  ];
-
- public names:Array<string>=['futbol','Programar','Musica','Jugar','Caminar por senderos']
-
-  imgags2 = [
-    'assets/MS.jpg',
-
   ];
 
   // options
@@ -125,17 +123,6 @@ export class WorkComponent {
     touch: true,
   };
 
-
-/*public carouselConfig: NguCarouselConfig = {
-    grid: { xs: 1, sm: 1, md: 1, lg: 1, all: 0 },
-    load: 3,
-    interval: {timing: 4000, initialDelay: 1000},
-    loop: true,
-    touch: true,
-    velocity: 0.2
-  };
-*/
- 
   onSelect(data:any): void {
     console.log('Item clicked', JSON.parse(JSON.stringify(data)));
   }

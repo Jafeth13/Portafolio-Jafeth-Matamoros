@@ -19,6 +19,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import {NgxTypedJsModule} from 'ngx-typed-js';
+import { EducationComponent } from './education/education/education.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {NgxTypedJsModule} from 'ngx-typed-js';
     WorkComponent,
     AboutMeComponent,
     MenuComponent,
-    FooterComponent
+    FooterComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

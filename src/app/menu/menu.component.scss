@@ -21,7 +21,7 @@
     font-size: 1.1rem;
     line-height: 1.8rem;
     letter-spacing: .2px;
-    color: #0000008c;
+    color: #ffffff;
   }
   .a{
     color: black;
@@ -152,3 +152,16 @@
     }
   
   }
+
+  header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("/assets/33.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+}

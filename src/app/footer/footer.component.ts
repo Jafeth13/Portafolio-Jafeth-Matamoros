@@ -27,6 +27,10 @@ export class FooterComponent {
       link:'https://www.facebook.com/profile.php?id=100009640669159',
       icon:'<i class="uil-facebook"></i>' 
     },
+    {
+      link:'https://twitter.com/JafethMatamoro3?t=8O9uCtpliKwnScBJVPf0mA&s=09',
+      icon:'<i class="uil-twitter"></i>' 
+    }
   ];
   constructor() { }
 

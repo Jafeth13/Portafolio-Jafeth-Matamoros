@@ -42,12 +42,12 @@
   Tecnologias utilizadas
 </h2>
 <p style="text-align: center;">
-  Smart Parking tiene 2 versiones una todo en .NET 
-    La segunda version se desarollo el front-end con el framework de angular.Y en el backend utilizamos 2 APIs una en .NET y la otra con Spring boot.
+  Smart Parking tiene dos versiones, una todo en .NET 
+    La segunda version se desarollo el front-end con el framework de angular.Y en el backend se utilizo 2 APIs una en .NET y la otra con Spring boot.
     En ambas ocasiones para la base de datos se utilizo el gestor SQL Server Management Studio.</p>
     <br>
 
-<ngu-carousel #myCarousel [inputs]="carouselConfig" [dataSource]="[first, Fourth,second, third,Fifth]">
+<ngu-carousel #myCarousel [inputs]="carouselConfig" [dataSource]="[first, Fourth,second, third,Fifth,six,seven,eight]">
 	<div *nguCarouselDef="let item;let i=index" class="item">
 		<div class="tile">
 			<ng-container *ngTemplateOutlet="item"></ng-container>
@@ -73,6 +73,18 @@
   <ng-template #Fifth>
 		<img src='/assets/5.png'  alt="Description when image is not found" >
 	</ng-template>
+
+  <ng-template #six>
+		<img src='/assets/11.png'  alt="Description when image is not found" >
+	</ng-template>
+  <ng-template #seven>
+		<img src='/assets/13.png'  alt="Description when image is not found" >
+	</ng-template>
+
+  <ng-template #eight>
+		<img src='/assets/16.png'  alt="Description when image is not found" >
+	</ng-template>
+
 <!--<button NguCarouselPrev class="rightRs">sdds</button>
 	<button NguCarouselNext class="rightRs">></button>
 -->
@@ -80,17 +92,28 @@
 		<li *ngFor="let j of myCarousel.pointNumbers;" [class.active]="j==myCarousel.activePoint" (click)="myCarousel.moveTo(j)"></li>
 	</ul>
 </ngu-carousel>
+<div class="buttonCV">
+  <a href="https://meek-gnome-524ae8.netlify.app/homes" >
+    <button >
+          Visita Smart Parking CR
+          <i class='uil-parking-square'></i>
+        
+    </button>   
+   
+  </a>  
+ 
+</div>
 
 
 <div>
   <h2 class="title">Siscoa</h2>
 </div>
 <p>
-  Siscoa es un proyecto que se basa en el manejo de control administrativos de las diferentes oficinas,en el cuak se sube documentos para evidenciar que se cumplan lo solicitado.
+  Siscoa es un proyecto que se basa en el manejo de control administrativos de las diferentes oficinas, en el cual se sube documentos, para evidenciar que se cumplan lo solicitado.
   <br> 
 </p>
 <h2 class="title">
-  Tecnologias utilizadas
+  Tecnologías utilizadas
 </h2>
 <p style="text-align: center;">
    <BR>
@@ -137,14 +160,75 @@ Eleventh]">
 </ngu-carousel>
 
 
-<div class="buttonCV">
-  <a href="https://drive.google.com/drive/folders/1bbT-IGeDPQF8EVEqjVXu0bl7YYiB2RVP?usp=sharing">
-  <button >
-         Ver proyectos 
-         <i class='uil-youtube'></i>
-    </button> 
-  </a>
-</div>
+
+
+
+
+<div class="marco pre-title animate__animated animate__fadeInUp animation-16">
+  <div>
+    <h2 class="title">JMC</h2>
+  </div>
+  <p>
+   JMC es una página donde podrás conocer más acerca de tus series, peliculas, comics favoritos y sus personajes curiosidades etc.  </p>
+  <h2 class="title">
+    Tecnologías utilizadas
+  </h2>
+  <p style="text-align: center;">
+JMC fue contruido con el framework de angular,tambien con herramientas como bootstrap y alimentado con APIS publicas para desarrolladores.
+  
+  <ngu-carousel #myCarousel3 [inputs]="carouselConfig" [dataSource]="[first1, Fourth1,second1, third1,Fifth1,six1]">
+    <div *nguCarouselDef="let item;let i=index" class="item">
+      <div class="tile">
+        <ng-container *ngTemplateOutlet="item"></ng-container>
+      </div>
+    </div>
+  
+    <ng-template #first1>
+      <img src='/assets/20.png'  >
+    </ng-template>
+  
+    <ng-template #second1>
+      <img src='/assets/21.png'  alt="Description when image is not found" >
+    </ng-template>
+  
+    <ng-template #third1>
+      <img src='/assets/22.png'   alt="Description when image is not found" >
+    </ng-template>	
+  
+    <ng-template #Fourth1>
+      <img src='/assets/24.png'  alt="Description when image is not found" >
+    </ng-template>
+  
+    <ng-template #Fifth1>
+      <img src='/assets/24.png'  alt="Description when image is not found" >
+    </ng-template>
+  
+    <ng-template #six1>
+      <img src='/assets/25.png'  alt="Description when image is not found" >
+    </ng-template>
+    
+  
+  <!--<button NguCarouselPrev class="rightRs">sdds</button>
+    <button NguCarouselNext class="rightRs">></button>
+  -->
+    <ul class="myPoint" NguCarouselPoint>
+      <li *ngFor="let j of myCarousel3.pointNumbers;" [class.active]="j==myCarousel3.activePoint" (click)="myCarousel3.moveTo(j)"></li>
+    </ul>
+  </ngu-carousel>
+  <div class="buttonCV">
+    <a href="https://precious-seahorse-e09a45.netlify.app/" >
+      <button >
+            Visita JMC
+      </button>   
+     
+    </a>  
+   
+  </div>
+
+
+
+
+
 <br>
 
 </div>

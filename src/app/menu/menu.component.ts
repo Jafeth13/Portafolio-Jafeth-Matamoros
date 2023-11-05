@@ -27,7 +27,7 @@ export class MenuComponent {
 
   ngOnInit(): void {
     const options = {
-      strings: ['Bienvenido a mi sitio web,vamos a conocer mi trabajo!', 'Pura vida!'],
+      strings: ['Bienvenido a mi sitio web,vamos a conocer mi trabajo', 'Pura vida'],
       typeSpeed: 100,
       backSpeed: 100,
       showCursor: true,
