@@ -1,4 +1,4 @@
-name: jafeth-deploy
+name: jafeth deploy
 on: [push]
 jobs: 
   Explore-Github-Action:
