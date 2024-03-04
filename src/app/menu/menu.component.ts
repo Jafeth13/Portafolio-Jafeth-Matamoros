@@ -40,7 +40,8 @@ export class MenuComponent {
 
 
     const options2 = {
-      strings: ['Hola mi nombre es Jafeth Matamoros y soy desarrollador web.','Me gusta tanto el front-end como el backend.'],
+      strings: ['Hola mi nombre es Jafeth Matamoros y soy Software Developer.',
+      'Y me dedico principalmente al desarrollo de software a la medida.'],
       typeSpeed: 100,
       backSpeed: 100,
       showCursor: true,
