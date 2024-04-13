@@ -44,18 +44,16 @@ export class WorkComponent {
   }
 
 
-   single=[{
-    "name": "Angular",
-    "value": 3
-  },
+single=
+[{
+  "name": "Full-stack",
+  "value": 4
+},
   {
-    "name": ".NET",
-    "value": 3
-  },
-  {
-    "name": "Spring boot",
-    "value": 1
-  }];
+    "name": "Backend",
+    "value": 2
+  }
+];
   view: [number, number] = [300, 200];
   
  
