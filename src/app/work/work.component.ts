@@ -43,6 +43,17 @@ export class WorkComponent {
     velocity: 0.2
   }
 
+  
+  @ViewChild('carousel', {static : true}) myCarousel4!: NguCarousel<any>;
+  carouselConfig4: NguCarouselConfig = {
+    grid: { xs: 1, sm: 1, md: 1, lg: 1, all: 0 },
+    load: 3,
+    interval: {timing: 4000, initialDelay: 1000},
+    loop: true,
+    touch: true,
+    velocity: 0.2
+  }
+
 
 single=
 [{

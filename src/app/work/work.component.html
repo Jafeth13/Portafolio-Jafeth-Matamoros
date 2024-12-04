@@ -206,6 +206,67 @@
       </a>
     </div>
 
+
+
+    <div>
+      <h2 class="title">UCR Paraiso</h2>
+    </div>
+    <p>
+     Proyecto para el curso sistemas expertos
+     
+    </p>
+    <h2 class="title">Tecnologias utilizadas</h2>
+    <p style="text-align: center">
+      HTML,CSS,JS,Dialogflow
+    </p>
+    <br />
+
+    <ngu-carousel
+      #myCarousel4
+      [inputs]="carouselConfig4"
+      [dataSource]="[first2, second2]"
+    >
+      <div *nguCarouselDef="let item; let i = index" class="item">
+        <div class="tile">
+          <ng-container *ngTemplateOutlet="item"></ng-container>
+        </div>
+      </div>
+
+      <ng-template #first2>
+        <img src="/assets/proyectoExpertos.png" />
+      </ng-template>
+
+      <ng-template #second2>
+        <img src="/assets/ucr2.png" alt="Description when image is not found" />
+      </ng-template>
+
+     
+
+      <!--<button NguCarouselPrev class="rightRs">sdds</button>
+	<button NguCarouselNext class="rightRs">></button>
+-->
+      <ul class="myPoint" NguCarouselPoint>
+        <li
+          *ngFor="let j of myCarousel4.pointNumbers"
+          [class.active]="j == myCarousel4.activePoint"
+          (click)="myCarousel4.moveTo(j)"
+        ></li>
+      </ul>
+    </ngu-carousel>
+    <div class="buttonCV">
+      <a href="https://jafeth13.github.io/">
+        <button>
+          Visita la U
+          <i class="i-uil-building"></i>
+        </button>
+      </a>
+    </div>
+
+
+
+
+
+
     <div>
       <h2 class="title">Siscoa</h2>
     </div>
